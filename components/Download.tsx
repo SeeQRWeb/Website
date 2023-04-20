@@ -1,4 +1,8 @@
 const Download = () => {
+
+  const handleDownload = (OS) => {
+    
+  }
   return (
     <>
       <h2 className="download__text text-center mt-5">
