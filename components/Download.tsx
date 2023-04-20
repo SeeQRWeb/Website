@@ -1,7 +1,7 @@
 const Download = () => {
   return (
     <>
-      <h2 className="download__text text-center mt-5">
+      <h2 className="download__text text-center mt-5 font-light">
         Download{" "}
         <span className="text-transparent bg-clip-text bg-gradient-to-r to-emerald-800 from-emerald-300">
           <strong>SeeQR</strong>

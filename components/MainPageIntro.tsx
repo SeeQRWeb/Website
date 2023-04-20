@@ -57,9 +57,9 @@ const MainPageIntro = () => {
           </strong>
         </h2>
         <h4 className="text-1xl">
-          SeeQR is your one-stop shop for efficient SQL database
-          manipulation and performance testing. SeeQR can be used throughout the
-          database life-cycle, from creation to testing.
+          SeeQR is your one-stop shop for efficient SQL database manipulation
+          and performance testing. SeeQR can be used throughout the database
+          life-cycle, from creation to testing.
         </h4>
       </div>
       <div

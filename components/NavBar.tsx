@@ -25,7 +25,7 @@ const NavBar = ({ showFadeEffect = true }) => {
   return (
     <>
       <nav
-        className={`bg-white px-5 flex flex-row items-center space-between justify-between fixed top-0 left-0 right-0 z-50 bg-gradient-to-r to-emerald-600 from-emerald-100 ${
+        className={`navbar fixed px-5 flex flex-row items-center space-between justify-between fixed top-0 left-0 right-0 ${
           showNav ? "opacity-95 " : "opacity-0"
         } transition-opacity duration-500`}
       >
@@ -34,15 +34,15 @@ const NavBar = ({ showFadeEffect = true }) => {
           <img src={Logo.src} className="logo" />
         </div>
         <div className="pr-15 ">
-          <Link href="/" className="px-10 link">
+          <Link href="/" className="px-10 link text-white">
             Home
           </Link>
           <a> | </a>
-          <Link href="/docs" className="px-10 link">
+          <Link href="/docs" className="px-10 link text-white">
             Docs
           </Link>
           <a> | </a>
-          <Link href="/team" className="px-10 link">
+          <Link href="/team" className="px-10 link text-white">
             Team
           </Link>
         </div>
