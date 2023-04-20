@@ -1,6 +1,10 @@
 import { useEffect } from 'react';
 
 const people = [
+  { name: 'Junaid Ahmed', github: 'https://github.com/junaid-ahmed7' },
+  { name: 'Chase Sizemore', github: 'https://github.com/ChaseSizemore' },
+  { name: 'Anthony Deng', github: 'https://github.com/anthonyadeng' },
+  { name: 'Oscar Romero', github: 'https://github.com/creaturenex' },
   { name: 'Aya Moosa', github: 'https://github.com/Hiya-its-Aya' },
   { name: 'Trevor Ferguson', github: 'https://github.com/TrevorJFerguson' },
   { name: 'Pauline Nguyen', github: 'https://github.com/paulinekpn' },
@@ -39,10 +43,6 @@ const people = [
   { name: 'Serena Kuo', github: 'https://github.com/serenackuo' },
   { name: 'Timothy Sin', github: 'https://github.com/timothysin' },
   { name: 'Vincent Trang', github: 'https://github.com/vincentt114' },
-  { name: 'Chase Sizemore', github: 'https://github.com/ChaseSizemore' },
-  { name: 'Junaid Ahmed', github: 'https://github.com/junaid-ahmed7' },
-  { name: 'Anthony Deng', github: 'https://github.com/anthonyadeng' },
-  { name: 'Oscar Romero', github: 'https://github.com/creaturenex' },
 ];
 
 const Teams = () => {
