@@ -2,6 +2,7 @@ import NavBar from '../components/NavBar';
 // import Image from 'next/image';
 // import img from "../assets/1_720.png"
 import Teams from '../components/Teams';
+import Footer from '../components/Footer';
 
 const TeamPage = () => {
   return (
@@ -15,6 +16,7 @@ const TeamPage = () => {
         </h1>
         <Teams />
       </div>
+      <Footer />
     </div>
   );
 };

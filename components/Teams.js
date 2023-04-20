@@ -48,7 +48,7 @@ const people = [
 const Teams = () => {
 
   return (
-    <div className="grid grid-cols-7 grid-rows-6 gap-10">
+    <div className="grid grid-cols-7 grid-rows-6 gap-10 mb-[10rem]">
       {people.map((person, index) => (
         <div className="relative" key={index}>
           <div className="image-container hover:z-50 hover:cursor-pointer hover:scale-175 transition duration-500 ease-in-out" onClick={() => window.location.href = person.github}>

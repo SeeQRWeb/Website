@@ -6,8 +6,6 @@
 * {
   margin: 0;
   padding: 0;
-
-  /* background-color: gray; */
 }
 
 /* Hide the scrollbar thumb */
@@ -43,11 +41,19 @@
   height: 275px;
 }
 
-body {
+body{
   background-color: #fcf5e5;
-  background-image: -webkit-linear-gradient(25deg, #fcf5e5 50%, #27213C 50%);
+  background-image: -webkit-linear-gradient(25deg, #fcf5e5 50%, #27213c 50%);
 }
 
+.docs{
+  background-color: #fcf5e5;
+  /* background-image: -webkit-linear-gradient(10deg, #fcf5e5 50%, #27213c 50%); */
+}
+.navbar {
+  background-color: #27213c;
+  /* background-image: -webkit-linear-gradient(25deg, #fcf5e5 50%, #27213c 50%); */
+}
 .logo {
   height: 50px;
   margin: 0 auto;
