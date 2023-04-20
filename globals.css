@@ -57,7 +57,7 @@ body {
   transition: transform 0.3s ease-in-out;
   display: inline-block;
   transform: scale(1.1);
-  color: green;
+  color: white;
 }
 
 h1,
@@ -160,37 +160,30 @@ h6 {
   font-size: 2em;
 }
 
-
-
-/* .circle-1, .circle-2, .circle-3, .circle-4, .circle-5,
-.circle-6, .circle-7, .circle-8, .circle-9,.circle-10 {
-
+.image-container {
+  position: relative;
 }
 
-.circle-11, .circle-12, .circle-13, .circle-14, .circle-15, 
-.circle-16, .circle-17,.circle-18, .circle-19, .circle-20 {
-  padding-left: 25px;
+.text-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
 }
 
-.circle-21, .circle-22, .circle-23, .circle-24, .circle-25,
-.circle-26, .circle-27, .circle-28, .circle-29, .circle-30 {
-  padding-left: 50px;
+.image-container:hover .text-container {
+  opacity: 1;
 }
 
-.circle-31, .circle-32, .circle-33, .circle-34, .circle-35,
-.circle-36, .circle-37, .circle-38, .circle-39,.circle-40 {
-  padding-left: 75px;
+.image-container:hover .circle {
+  filter:blur(2px);
 }
 
-.circle-41, .circle-42, .circle-43,.circle-44,.circle-45 {
-  padding-left: 100px;
-}
-
-.circle-1, .circle-11, .circle-21, .circle-31, .circle-41 {
-  padding-top:px;
-} */
-
-
-.circle:hover {
-  z-index: 1;
+.text {
+  color: black;
+  font-size: 12px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
 }

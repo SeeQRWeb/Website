@@ -46,27 +46,34 @@ const people = [
 ];
 
 const Teams = () => {
+
   return (
     <div className="grid grid-cols-7 grid-rows-6 gap-10">
       {people.map((person, index) => (
-        <img
-          className="rounded-full grid-item hover:cursor-pointer hover:scale-200 transition duration-500 ease-in-out"
-          href={person.github}
-          src={`https://avatars.githubusercontent.com/${person.github.replace(
-            'https://github.com/',
-            ''
-          )}`}
-          alt={person.name}
-          width={50}
-          height={50}
-          onClick={() => {
-            window.location.href = person.github;
-          }}
-        />
+        <div className="relative" key={index}>
+          <div className="image-container hover:z-50 hover:cursor-pointer hover:scale-175 transition duration-500 ease-in-out" onClick={() => window.location.href = person.github}>
+            <img
+              className="circle rounded-full hover:z-50"
+              href={person.github}
+              src={`https://avatars.githubusercontent.com/${person.github.replace(
+                'https://github.com/',
+                ''
+              )}`}
+              alt={person.name}
+              width={100}
+              height={50}
+            />
+            <div className="text-container">
+              <p className="text ">{person.name}</p>
+            </div>
+          </div>
+        </div>
       ))}
     </div>
   );
 };
+
+
 
 
 export default Teams;
